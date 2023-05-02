@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap');
+/*----------------------- Header --------------------------*/
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+}
+.active .nav-link{
+  color:#27437e !important;
+   background-color: orange !important;
+}
+.nav-link:hover{
+  color:#27437e !important;
+  background-color: orange !important;
+}
+.bc1{
+    font-size: 16px;
+    color: black;
+    font-family: 'Roboto Condensed' !important;
+    font-weight: bold;
+   
+}
+.bc2{
+  font-size: 16px;
+  color: black;
+  font-family: 'Roboto Condensed' !important;
+  font-weight: bold;
+ 
+}
+.active .bc1{
+  color:#27437e !important;
+   background-color: orange !important;
+}
+.bc1:hover{
+  color:#27437e !important;
+  background-color: orange !important;
+}
+.active .bc2{
+  color:#27437e !important;
+   background-color: orange !important;
+}
+.bc2:hover{
+  color:#27437e !important;
+  background-color: orange !important;
+}
+
+.menu-right-btn{
+    padding: 10px;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+    
+}
+.menu-right-btn:hover{
+  color:#27437e !important;
+   background-color: orange;
+}
+.navbar .nav-link .navbar-brand{
+  position:absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+
+
+/*----------------------------------- Main -------------------------------------*/
+.btn1{
+    color: white !important;
+}
+.carousel-item {
+  height: 100vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+  background-color: black;
+}
+.hw{
+  height: 300px;
+  width: 100px;
+}
+
+
+ /*---------------------------------- Contact Us --------------------------------------*/
+.csec {
+	background: linear-gradient(to right, #FA4B37, #8cdd8c);
+	background-attachment: fixed; 
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	top: 200px;
+	content: '';
+	transform-origin: top right;
+	transform: skewY(-10deg);
+	z-index: -1;
+}
+.back-contact {
+	margin-top: 0px;
+	transform: translateY(-50px);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.cc {
+	height: 400px;
+	width: 400px;
+	height: 500px;
+	border-radius: 10px;
+	justify-content: center;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.4);
+	background: #fff;
+}
+.cc form {
+	margin: 5%;
+	margin-top: 40px;
+	width: 90%;
+	height: 90%;
+}
+.cc form label {
+	position: absolute;
+	color: #2E3D49;
+	font-size: 10px;
+	font-weight: 800;
+}
+.cc form input {
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px lightgray;
+	border: 1px solid rgba(0,0,0,0.2);
+	outline: none;
+	color: #2E3D49;
+	font-weight: 600;
+}
+.imp {
+	color: red;
+}
+form textarea {
+	width: 100%;
+	height: 100px;
+	box-shadow: inset 0 0 5px lightgray;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	outline: none;
+	color: #2E3D49;
+	font-weight: 600;
+	padding: 15px;
+}
+#csubmit {
+	margin-top: 2px; 
+	background: linear-gradient(to right, #f76f14, #27df27);
+	border-radius: 5px;
+	border-style: none;
+	outline: none;
+	width: 100%;
+	padding: 15px 25px;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+
+
+/*----------------------------------- Footer -----------------------------------*/
+
+footer {  
+  background: #8cdd8c;
+  /* rgb(173, 177, 174);   */
+   color: white;  
+   margin-top:100px;  
+ }  
+ footer a {  
+   color: #fff;  
+   font-size: 14px;  
+   transition-duration: 0.2s;  
+ }  
+ footer a:hover {  
+   color: #FA944B;  
+   text-decoration: none;  
+ }  
+ .copy {  
+   font-size: 12px;  
+   padding: 10px;  
+   border-top: 1px solid #FFFFFF;  
+ }  
+ .footer-middle {  
+   padding-top: 2em;  
+   color: white;  
+ }  
+ ul.social-network {  
+   list-style: none;  
+   display: inline;  
+   margin-left: 0 !important;  
+   padding: 0;  
+ }  
+ ul.social-network li {  
+   display: inline;  
+   margin: 0 5px;  
+ }  
+   
+ .social-network a.icoFacebook:hover {  
+   background-color: #3B5998;  
+ }  
+ .social-network a.icoLinkedin:hover {  
+   background-color: #007bb7;  
+ }  
+ .social-network a.icoFacebook:hover i  
+ {  
+   color: #fff;  
+ }  
+ .social-network a.icoLinkedin:hover i {  
+   color: #fff;  
+ }  
+ .social-network a.socialIcon:hover {  
+   color: #44BCDD;  
+ }  
+ .socialHoverClass {  
+   color: #44BCDD;  
+ }  
+ .social-circle li a {  
+   display: inline-block;  
+   position: relative;  
+   margin: 0 auto 0 auto;  
+   -moz-border-radius: 50%;  
+   -webkit-border-radius: 50%;  
+   border-radius: 50%;  
+   text-align: center;  
+   width: 30px;  
+   height: 30px;  
+   font-size: 15px;  
+ }  
+ .social-circle li i {  
+   margin: 0;  
+   line-height: 30px;  
+   text-align: center;  
+ }  
+ .social-circle li a:hover i  
+ {  
+   -moz-transform: rotate(360deg);  
+   -webkit-transform: rotate(360deg);  
+   -ms--transform: rotate(360deg);  
+   transform: rotate(360deg);  
+   -webkit-transition: all 0.2s;  
+   -moz-transition: all 0.2s;  
+   -o-transition: all 0.2s;  
+   -ms-transition: all 0.2s;  
+   transition: all 0.2s;  
+ }  
+ .triggeredHover {  
+   -moz-transform: rotate(360deg);  
+   -webkit-transform: rotate(360deg);  
+   -ms--transform: rotate(360deg);  
+   transform: rotate(360deg);  
+   -webkit-transition: all 0.2s;  
+   -moz-transition: all 0.2s;  
+   -o-transition: all 0.2s;  
+   -ms-transition: all 0.2s;  
+   transition: all 0.2s;  
+ }  
+ .social-circle i {  
+   color: #595959;  
+   -webkit-transition: all 0.8s;  
+   -moz-transition: all 0.8s;  
+   -o-transition: all 0.8s;  
+   -ms-transition: all 0.8s;  
+   transition: all 0.8s;  
+ }  
+ .social-network a {  
+   background-color: #F9F9F9;  
+ }  
+ .social-network a:hover {  
+ background: #ff304d;  
+ }  
+
+ #t1{
+  margin-right: 2%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: none !important;
+ }
+
+
+/*--------------------------- about -----------------------------------------*/
